@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "GTSuperWT-Regular";
+  src: url("GTSuperWT-Regular.svg#GTSuperWT-Regular") format("svg"),
+    url("GTSuperWT-Regular.ttf") format("truetype"),
+    url("GTSuperWT-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gt-super-wt-regular";
+  src: url("gt-super-wt-regular.eot");
+  src: url("gt-super-wt-regular.eot?#iefix") format("embedded-opentype"),
+    url("gt-super-wt-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
