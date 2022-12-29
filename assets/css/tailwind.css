@@ -1,17 +1,4 @@
 @font-face {
-  font-family: "GTSuperWT-Regular";
-  src: url("..fonts/GTSuperWT-Regular.eot");
-  src: url("../fonts/GTSuperWT-Regular.svg#GTSuperWT-Regular") format("svg"),
-    url("../fonts/GTSuperWT-Regular.ttf") format("truetype"),
-    url("../assetsfonts/GTSuperWT-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/GTSuperWT-Regular.woff") format("woff"),
-    url("../fonts/GTSuperWT-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Recoleta";
   src: local("Recoleta Black"), local("Recoleta-Black"),
     url("../fonts/Recoleta-Black/Recoleta-Black.woff2") format("woff2"),

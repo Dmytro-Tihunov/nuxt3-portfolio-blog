@@ -5,9 +5,6 @@ export default <Partial<Config>>{
   plugins: [require("@tailwindcss/typography")],
   content: ["content/**/*.md"],
   theme: {
-    fontFamily: {
-      display: ["GTSuperWT-Regular"],
-    },
     extend: {
       colors: {},
       fontFamily: {

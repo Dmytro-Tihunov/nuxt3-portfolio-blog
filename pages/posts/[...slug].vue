@@ -120,7 +120,7 @@ useHead({
         </template>
       </ContentRenderer>
       <PrevNext
-        v-if="post.title"
+        v-if="prev || next"
         class="hidden sm:flex"
         :prev="prev"
         :next="next"

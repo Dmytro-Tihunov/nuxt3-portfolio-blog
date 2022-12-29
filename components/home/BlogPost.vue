@@ -8,7 +8,7 @@ const props = defineProps<{
 <template>
   <div class="hidden w-[350px] md:flex">
     <NuxtLink :to="props.data._path">
-      <img class="w-[100%] rounded-[10px]" src="img/cover-1.png" alt="" />
+      <img class="w-[100%] rounded-[10px]" src="/img/cover-1.png" alt="" />
     </NuxtLink>
   </div>
   <div class="md:ml-4 w-full">
