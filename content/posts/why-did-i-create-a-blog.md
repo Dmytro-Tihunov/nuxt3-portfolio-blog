@@ -4,7 +4,7 @@ description: React does Framer Motion make layout changes look seamless? In this
 publishDate: Junuary 01, 2023
 date: 2023-01-01
 img: "img/cover-1.png"
-tags: ["example", "blog", "tag3"]
+tags: ["blog"]
 ---
 
 ## Title H2

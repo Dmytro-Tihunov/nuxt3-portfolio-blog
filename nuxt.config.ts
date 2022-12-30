@@ -4,7 +4,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {},
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/color-mode",
+    "@nuxt/content",
+    "@nuxtjs/web-vitals",
+  ],
   extends: "@nuxt-themes/typography",
   colorMode: {
     preference: "dark",

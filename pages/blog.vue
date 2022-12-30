@@ -127,7 +127,7 @@ useHead({
       >
         <button @click="showTags = !showTags" class="flex items-center">
           <IconsTagsIcon class="w-4 mr-1" />
-          <span class="font-recoleta mr-2"
+          <span class="font-recoleta sm:mr-2"
             >Tags<span v-if="showTags">:</span></span
           >
         </button>

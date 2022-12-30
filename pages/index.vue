@@ -28,10 +28,18 @@ useHead({
       </p>
       <div class="flex items-center font-recoleta mt-14">
         Follow me:
-        <a href="#" class="social-home-button mr-2 ml-3">
+        <a
+          target="_blank"
+          href="https://twitter.com/tihunov"
+          class="social-home-button mr-2 ml-3"
+        >
           <IconsTwitter class="w-4"
         /></a>
-        <a href="#" class="social-home-button">
+        <a
+          target="_blank"
+          href="https://github.com/Dmytro-Tihunov"
+          class="social-home-button"
+        >
           <IconsGithub class="w-4 flex-inline" />
         </a>
       </div>

@@ -18,10 +18,10 @@
   },
   "dependencies": {
     "@notionhq/client": "^2.2.2",
+    "@nuxtjs/web-vitals": "^0.2.2",
     "@tailwindcss/typography": "^0.5.8",
     "@vueuse/nuxt": "^9.9.0",
     "octokit": "^2.0.10",
-    "reading-time": "^1.5.0",
     "remark-reading-time": "^2.0.1",
     "vee-validate": "^4.7.3",
     "yup": "^0.32.11"
