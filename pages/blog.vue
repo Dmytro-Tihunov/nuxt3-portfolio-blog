@@ -35,9 +35,8 @@ const { data: postsList, pending: isPostsLoading } = await useAsyncData(
       .find()
 );
 
-const { data: tagsList, pending: isTagsLoading } = await useAsyncData(
-  "tags",
-  () => queryContent("/posts").only("tags").find()
+const { data: tagsList } = await useAsyncData("tags", () =>
+  queryContent("/posts").only("tags").find()
 );
 
 watchEffect(async () => {
@@ -110,7 +109,7 @@ useHead({
       articles you will find useful for you :)
     </p>
 
-    <div class="flex items-center justify-between gap-4">
+    <div class="flex items-center relative justify-between gap-4">
       <div class="relative">
         <IconsSearch class="w-4 left-[8px] top-[12px] absolute" />
         <input
@@ -123,27 +122,24 @@ useHead({
       </div>
 
       <div
-        class="border border-[#c7c7c7] h-[40px] bg-[#ffffff] flex-col sm:flex-row rounded-lg flex px-4 py-2 dark:border-[#475584] dark:bg-[#171C34]"
+        class="absolute top-0 right-0 pt-1.5 flex border items-center flex-col font-recoleta border-[#c7c7c7] px-4 rounded-lg dark:border-[#475584] bg-[#ffffff] min-h-[40px] dark:bg-[#171C34]"
       >
         <button @click="showTags = !showTags" class="flex items-center">
-          <IconsTagsIcon class="w-4 mr-1" />
-          <span class="font-recoleta sm:mr-2"
-            >Tags<span v-if="showTags">:</span></span
-          >
+          <span>Tags</span>
+          <IconsArrowDropdown
+            class="w-5"
+            :class="[showTags ? 'rotate-180' : '']"
+          />
         </button>
 
-        <span v-if="isTagsLoading">Loading</span>
-
         <div class="text-1xl" v-if="showTags">
-          [
-          <span class="font-recoleta" v-for="(t, i) in articleTags" :key="i">
-            '<NuxtLink
+          <div class="text-center py-2" v-for="(t, i) in articleTags" :key="i">
+            <NuxtLink
               class="hover:text-[#9CA3AF] duration-100"
               :to="'/tags/' + t"
               >{{ t }}</NuxtLink
-            >'{{ articleTags.length - 1 !== i ? "," : "" }}
-          </span>
-          ]
+            >
+          </div>
         </div>
       </div>
     </div>
