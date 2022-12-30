@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/content",
     "@nuxtjs/web-vitals",
+    "@nuxtjs/robots",
   ],
   extends: "@nuxt-themes/typography",
   colorMode: {
@@ -28,5 +29,15 @@ export default defineNuxtConfig({
   },
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
+  },
+  webVitals: {
+    provider: "log",
+    debug: true, // debug enable metrics reporting on dev environments
+    disabled: false,
+  },
+  nitro: {
+    prerender: {
+      routes: ["/sitemap.xml"],
+    },
   },
 });
