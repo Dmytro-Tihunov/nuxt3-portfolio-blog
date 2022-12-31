@@ -20,8 +20,8 @@ useHead({
     class="mb-10 text-center mt-10 border-dashed border-b border-[#c7c7c7] pb-10 dark:border-[#475584] font-recoleta"
   >
     Tag:
-    <h1 class="text-4xl sm:text-6xl mb-2 font-semibold">
-      {{ slug }}
+    <h1 class="text-4xl justify-center flex sm:text-6xl mb-2 font-semibold">
+      <IconsTagsIcon class="w-12 mr-3" /> {{ slug }}
     </h1>
   </div>
 

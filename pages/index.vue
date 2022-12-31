@@ -1,15 +1,27 @@
-<script setup land="ts">
+<script setup lang="ts">
 const { data: repoList, pending: isReposLoading } = await useAsyncData(
   "/gihub",
   () => $fetch("/api/github")
 );
 
 useHead({
-  title: "Home • Tihunov.com",
+  title: "Home • Dmytro Tihunov",
   meta: [
     {
       name: "og:title",
-      content: "Home • Tihunov.com",
+      content: "Home • Dmytro Tihunov",
+    },
+    {
+      name: "og:image",
+      content: "https://tihunov.com/img/open-graph-preview.png",
+    },
+    {
+      name: "og:image:width",
+      content: "1260",
+    },
+    {
+      name: "og:image:height",
+      content: "630",
     },
   ],
 });

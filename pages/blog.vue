@@ -125,11 +125,11 @@ useHead({
         class="absolute top-0 right-0 pt-1.5 flex border items-center flex-col font-recoleta border-[#c7c7c7] px-4 rounded-lg dark:border-[#475584] bg-[#ffffff] min-h-[40px] dark:bg-[#171C34]"
       >
         <button @click="showTags = !showTags" class="flex items-center">
-          <span>Tags</span>
           <IconsArrowDropdown
             class="w-5"
             :class="[showTags ? 'rotate-180' : '']"
           />
+          <span>Tags</span>
         </button>
 
         <div class="text-1xl" v-if="showTags">
