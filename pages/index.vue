@@ -8,19 +8,27 @@ useHead({
   title: "Home • Dmytro Tihunov",
   meta: [
     {
-      name: "og:title",
-      content: "Home • Dmytro Tihunov",
+      property: "og:title",
+      content: "Dmytro Tihunov",
     },
     {
-      name: "og:image",
+      property: "og:description",
+      content: "I'm a frontend developer and javascript enthusiast.",
+    },
+    {
+      property: "og:image",
       content: "https://tihunov.com/img/open-graph-preview.png",
     },
     {
-      name: "og:image:width",
+      property: "og:image:alt",
+      content: "Dmytro Tihunov",
+    },
+    {
+      property: "og:image:width",
       content: "1260",
     },
     {
-      name: "og:image:height",
+      property: "og:image:height",
       content: "630",
     },
   ],

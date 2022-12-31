@@ -92,6 +92,18 @@ useHead({
       content:
         "been writing online since 2022, mostly about web development and tech careers. In total, written 51 articles on my blog. Use the search below to filter by title.",
     },
+    {
+      name: "og:image",
+      content: "https://tihunov.com/img/open-graph-preview.png",
+    },
+    {
+      name: "og:image:width",
+      content: "1260",
+    },
+    {
+      name: "og:image:height",
+      content: "630",
+    },
   ],
 });
 </script>
