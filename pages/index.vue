@@ -40,11 +40,11 @@ useHead({
       content: "630",
     },
     {
-      property: "twitter:image",
+      name: "twitter:image",
       content: "https://tihunov.com/img/open-graph-preview.png",
     },
     {
-      property: "twitter:image:alt",
+      name: "twitter:image:alt",
       content: "Dmytro Tihunov",
     },
   ],
