@@ -16,6 +16,14 @@ useHead({
       content: "I'm a frontend developer and javascript enthusiast.",
     },
     {
+      property: "og:url",
+      content: "https://tihunov.com",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
       property: "og:image",
       content: "https://tihunov.com/img/open-graph-preview.png",
     },
@@ -30,6 +38,14 @@ useHead({
     {
       property: "og:image:height",
       content: "630",
+    },
+    {
+      property: "twitter:image",
+      content: "https://tihunov.com/img/open-graph-preview.png",
+    },
+    {
+      property: "twitter:image:alt",
+      content: "Dmytro Tihunov",
     },
   ],
 });
