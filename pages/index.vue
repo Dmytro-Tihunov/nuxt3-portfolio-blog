@@ -4,6 +4,12 @@ const { data: repoList, pending: isReposLoading } = await useAsyncData(
   () => $fetch("/api/github")
 );
 
+const repoListSorted = computed(() => {
+  return repoList.value
+    .slice(0, 6)
+    .sort((a, b) => new Date(b.created) - new Date(a.created));
+});
+
 useHead({
   title: "Home • Dmytro Tihunov",
   meta: [
@@ -137,13 +143,8 @@ useHead({
       <h1 class="title mb-6">Github:</h1>
       <div v-if="isReposLoading">Loading...</div>
       <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <span v-for="(item, index) in repoList" :key="index">
-          <HomeRepoCard
-            :name="item.name"
-            :description="item.description"
-            :stars="item.stars"
-            :forks="item.forks"
-          />
+        <span v-for="(item, index) in repoListSorted" :key="index">
+          <HomeRepoCard :props="item" />
         </span>
       </div>
     </div>

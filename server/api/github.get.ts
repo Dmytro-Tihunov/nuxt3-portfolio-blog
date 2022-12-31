@@ -9,8 +9,9 @@ export default defineEventHandler(async (event) => {
     const desc = repo.description ?? "No description";
     return {
       name: repo.name,
-      url: repo.html_url,
       description: desc,
+      created: repo.created_at.split("T")[0],
+      url: repo.html_url,
       stars: repo.stargazers_count,
       forks: repo.forks,
     };
@@ -19,6 +20,7 @@ export default defineEventHandler(async (event) => {
   const data = await octokit.request("GET /users/{username}/repos", {
     username: "Dmytro-Tihunov", // Your github username
   });
+
   return data.data.map((rep) => {
     return transformGithubData(rep);
   });

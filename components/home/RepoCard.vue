@@ -1,9 +1,6 @@
 <script setup lang="ts">
-const props = defineProps<{
-  name: string;
-  description: string;
-  stars: number;
-  forks: number;
+defineProps<{
+  props: Object;
 }>();
 </script>
 
@@ -11,7 +8,7 @@ const props = defineProps<{
   <div
     class="w-[100%] rounded-[12px] border border-[#c7c7c7] bg-[#f1f2f4] dark:border-[#475584] p-3 dark:bg-[#171C34]"
   >
-    <a target="_blank">
+    <NuxtLink target="_blank" :href="props.url">
       <div class="flex items-center">
         <IconsRepoIcon />
         <h2 class="text-2xl dark:text-[#dbe3f8]">{{ props.name }}</h2>
@@ -31,6 +28,6 @@ const props = defineProps<{
           {{ props.forks }}
         </div>
       </div>
-    </a>
+    </NuxtLink>
   </div>
 </template>
