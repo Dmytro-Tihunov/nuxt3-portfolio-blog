@@ -31,7 +31,7 @@ const schema = Yup.object().shape({
 
 <template>
   <div
-    class="p-6 rounded-lg border shadow-lg border-[#c7c7c7] dark:border-[#475584]"
+    class="p-6 rounded-lg border shadow-lg border-[#c7c7c7] dark:border-[#34343a]"
   >
     <Form
       @submit="onSubmit"
@@ -58,7 +58,7 @@ const schema = Yup.object().shape({
         class="button"
       >
         <div
-          class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34]"
+          class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425]"
         >
           <IconsUpRightArrow2 />
         </div>

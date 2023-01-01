@@ -3,10 +3,10 @@ import { defineTheme } from "pinceau";
 export default defineTheme({
   typography: {
     color: {
-      blue: "#171C34",
+      blue: "#232425",
       white: "#ffffff",
       whitec: "#ffffff",
-      borderb: "#475584",
+      borderb: "#34343a",
       borderw: "#c7c7c7",
     },
   },

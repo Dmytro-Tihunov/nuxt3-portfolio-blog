@@ -28,7 +28,7 @@ const handleError = () => clearError({ redirect: "/" });
 
       <button @click="handleError" class="button">
         <div
-          class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34]"
+          class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425]"
         >
           <IconsArrowLeft class="w-6" />
         </div>

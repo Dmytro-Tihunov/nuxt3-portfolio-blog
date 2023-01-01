@@ -7,13 +7,13 @@ const props = defineProps<{
 
 <template>
   <div
-    class="rounded-lg w-full border overflow-hidden flex border-[#c7c7c7] dark:border-[#475584]"
+    class="rounded-lg w-full border overflow-hidden flex border-[#c7c7c7] dark:border-[#34343a]"
   >
     <div class="p-4">
       <div class="flex mb-2 items-center justify-between">
         <div class="flex">
           <div
-            class="rounded-lg text-[#6f6f6f] dark:text-[#6372a5] mr-2 text-[12px]"
+            class="rounded-lg text-[#6f6f6f] dark:text-[#9ba1a6] mr-2 text-[12px]"
             v-for="(e, i) in props.data.tags"
             :key="i"
           >
@@ -37,7 +37,7 @@ const props = defineProps<{
       <div class="mb-3">{{ props.data.description }}</div>
 
       <div
-        class="text-[#6f6f6f] text-[12px] items-center flex dark:text-[#6372a5]"
+        class="text-[#6f6f6f] text-[12px] items-center flex dark:text-[#9ba1a6]"
       >
         <div class="flex items-center mr-1">
           <img

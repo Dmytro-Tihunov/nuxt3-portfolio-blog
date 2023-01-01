@@ -42,20 +42,20 @@
     @apply text-3xl sm:text-4xl font-semibold font-recoleta;
   }
   .input {
-    @apply h-[40px] rounded-md border border-[#c7c7c7] focus:border-[#303063] pl-4 outline-0 dark:border-[#475584] bg-[#f1f2f4] pr-[18px] text-[13px] dark:bg-[#171C34];
+    @apply h-[40px] rounded-md border border-[#c7c7c7] focus:border-[#303063] pl-4 outline-0 dark:border-[#34343a] bg-[#f1f2f4] pr-[18px] text-[13px] dark:bg-[#232425];
   }
   .input.has-error {
     @apply border-red-500 dark:border-[#FCA5A5];
   }
   .input-search {
     @apply h-[40px] rounded-md border border-[#c7c7c7] focus:border-[#303063] pl-8
-     sm:w-[300px] outline-0 dark:border-[#475584] bg-[#ffffff] pr-[18px] dark:bg-[#171C34];
+     sm:w-[300px] outline-0 dark:border-[#34343a] bg-[#ffffff] pr-[18px] dark:bg-[#232425];
   }
   .textarea.has-error {
     @apply border-red-500 dark:border-[#FCA5A5];
   }
   .button {
-    @apply inline-flex rounded-full relative border py-[8px] pl-[8px] pr-[13px] text-[15px] border-[#c7c7c7] dark:border-[#475584] focus:scale-90;
+    @apply inline-flex rounded-full relative border py-[8px] pl-[8px] pr-[13px] text-[15px] border-[#c7c7c7] dark:border-[#34343a] focus:scale-90;
   }
   .button-more-outlined {
     @apply flex items-center justify-center py-3 text-center duration-300;
@@ -73,7 +73,7 @@
     @apply mt-2;
   }
   .textarea {
-    @apply rounded-md border border-[#c7c7c7] dark:border-[#475584] bg-[#f1f2f4] p-4 pr-[18px] text-[13px] outline-none focus:border-[#303063] dark:bg-[#171C34];
+    @apply rounded-md border border-[#c7c7c7] dark:border-[#34343a] bg-[#f1f2f4] p-4 pr-[18px] text-[13px] outline-none focus:border-[#303063] dark:bg-[#232425];
   }
   .social-home-button {
     @apply mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425];

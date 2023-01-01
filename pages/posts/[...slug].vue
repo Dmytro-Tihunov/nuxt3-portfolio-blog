@@ -86,7 +86,7 @@ useHead({
   <div class="grid grid-cols-8">
     <div
       v-if="post.title"
-      class="pt-10 col-span-8 pb-4 border-[#c7c7c7] border-dashed border-b dark:border-[#475584]"
+      class="pt-10 col-span-8 pb-4 border-[#c7c7c7] border-dashed border-b dark:border-[#34343a]"
     >
       <div class="flex mb-4">
         <div class="mr-2 last:mr-0" v-for="(t, i) in post.tags" :key="i">

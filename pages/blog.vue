@@ -110,7 +110,7 @@ useHead({
 
 <template>
   <div
-    class="mb-10 mt-10 border-dashed border-b border-[#c7c7c7] pb-10 dark:border-[#475584]"
+    class="mb-10 mt-10 border-dashed border-b border-[#c7c7c7] pb-10 dark:border-[#34343a]"
   >
     <h1 class="text-4xl sm:text-6xl mb-3 font-semibold font-recoleta">
       Latest posts
@@ -134,7 +134,7 @@ useHead({
       </div>
 
       <div
-        class="absolute top-0 right-0 pt-1.5 flex border items-center flex-col font-recoleta border-[#c7c7c7] px-4 rounded-lg dark:border-[#475584] bg-[#ffffff] min-h-[40px] dark:bg-[#171C34]"
+        class="absolute top-0 right-0 pt-1.5 flex border items-center flex-col font-recoleta border-[#c7c7c7] px-4 rounded-lg dark:border-[#34343a] bg-[#ffffff] min-h-[40px] dark:bg-[#232425]"
       >
         <button @click="showTags = !showTags" class="flex items-center">
           <IconsArrowDropdown

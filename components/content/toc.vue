@@ -6,10 +6,10 @@ const props = defineProps({
 
 <template>
   <div
-    class="w-[100%] rounded-[12px] border border-[#c7c7c7] bg-[#ffffff] dark:border-[#475584] p-4 dark:bg-[#171C34]"
+    class="w-[100%] rounded-[12px] border border-[#c7c7c7] bg-[#ffffff] dark:border-[#34343a] p-4 dark:bg-[#232425]"
   >
     <h2
-      class="text-[13px] text-[#6f6f6f] dark:text-[#6372a5] mb-3 pb-2 text-bold border-[#c7c7c7] dark:border-[#475584] border-b font-recoleta font-semibold"
+      class="text-[13px] text-[#6f6f6f] dark:text-[#9ba1a6] mb-3 pb-2 text-bold border-[#c7c7c7] dark:border-[#34343a] border-b font-recoleta font-semibold"
     >
       Table of Contents
     </h2>
@@ -22,7 +22,7 @@ const props = defineProps({
     </ul>
 
     <a
-      class="text-[#6f6f6f] items-center hover:underline flex text-[13px] dark:text-[#6372a5]"
+      class="text-[#6f6f6f] items-center hover:underline flex text-[13px] dark:text-[#9ba1a6]"
       href="#"
       ><IconsArrowUp class="w-4" /> Back to top</a
     >

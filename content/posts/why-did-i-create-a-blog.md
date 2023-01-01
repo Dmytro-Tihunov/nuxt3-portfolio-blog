@@ -31,13 +31,6 @@ Welcome to my second blog post using [content v2 module](https://content.nuxtjs.
 
 [Nuxt](https://nuxtjs.org/) is a powerful Vue framework that offers great development features such as server side rendering.
 
-```bash
-npx nuxi init nuxt-app
-cd nuxt-app
-yarn install
-yarn dev -o
-```
-
 ```ts
 // ./nuxt.config.ts
 import { defineNuxtConfig } from "nuxt";

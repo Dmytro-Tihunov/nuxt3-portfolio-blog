@@ -5,7 +5,7 @@ const currentYear = new Date();
 <template>
   <footer>
     <div
-      class="max-w-4xl border-t lg:px-0 px-4 flex justify-between items-center text-[14px] pb-5 pt-5 dark:border-[#475584] border-[#c7c7c7] mx-auto"
+      class="max-w-4xl border-t lg:px-0 px-4 flex justify-between items-center text-[14px] pb-5 pt-5 dark:border-[#34343a] border-[#c7c7c7] mx-auto"
     >
       <p class="flex-inline items-center">
         © {{ currentYear.getFullYear() }} Dmytro Tihunov

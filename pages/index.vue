@@ -129,7 +129,7 @@ useHead({
 
         <a class="button-more-outlined" href="/blog">
           <div
-            class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34]"
+            class="mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425]"
           >
             <IconsRightArrow />
           </div>
@@ -139,7 +139,7 @@ useHead({
     </div>
 
     <div
-      class="flex border-dashed border-b dark:border-[#475584] border-[#c7c7c7] pb-10 flex-col mt-10"
+      class="flex border-dashed border-b dark:border-[#34343a] border-[#c7c7c7] pb-10 flex-col mt-10"
     >
       <h1 class="title mb-6">Github:</h1>
       <div v-if="isReposLoading">Loading...</div>

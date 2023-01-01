@@ -26,7 +26,7 @@ const copyLink = () => {
   <div class="mt-10 sm:mt-20 flex justify-between items-center flex-row">
     <div class="flex">
       <div class="mr-4">
-        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#6372a5]">
+        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#9ba1a6]">
           Written by
         </div>
         <div class="flex items-center">
@@ -44,14 +44,14 @@ const copyLink = () => {
       </div>
 
       <div class="mr-4">
-        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#6372a5]">
+        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#9ba1a6]">
           Published on
         </div>
         <span class="text-[14px]">{{ props.publishDate }}</span>
       </div>
 
       <div class="mr-4">
-        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#6372a5]">
+        <div class="text-[11px] mb-1 text-[#6f6f6f] dark:text-[#9ba1a6]">
           Reading time
         </div>
         <span class="text-[14px]">{{ props.readingTime }}</span>
@@ -61,14 +61,14 @@ const copyLink = () => {
     <div class="hidden sm:flex">
       <button
         @click="shareOnTwitter"
-        class="h-[36px] mr-3 flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34]"
+        class="h-[36px] mr-3 flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425]"
       >
         <IconsTwitter class="w-4" />
       </button>
 
       <button
         @click="copyLink"
-        class="h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34]"
+        class="h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425]"
       >
         <IconsLink class="w-4" />
       </button>
