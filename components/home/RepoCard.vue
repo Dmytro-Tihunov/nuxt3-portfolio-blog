@@ -11,7 +11,7 @@ defineProps<{
     <NuxtLink target="_blank" :href="props.url">
       <div class="flex items-center">
         <IconsRepoIcon />
-        <h2 class="text-2xl font-recoleta">{{ props.name }}</h2>
+        <h2 class="text-2xl font-recoleta font-semibold">{{ props.name }}</h2>
       </div>
       <p class="mb-3 mt-1 text-[13px] text-[#6f6f6f] dark:text-[#9ba1a6]">
         {{ props.description }}

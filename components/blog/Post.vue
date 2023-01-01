@@ -37,7 +37,7 @@ const props = defineProps<{
       <div class="mb-3">{{ props.data.description }}</div>
 
       <div
-        class="text-[#6f6f6f] text-[12px] items-center flex dark:text-[#9ba1a6]"
+        class="text-[#6f6f6f] text-[12px] justify-between flex-row items-center flex dark:text-[#9ba1a6]"
       >
         <div class="flex items-center mr-1">
           <img
@@ -49,9 +49,11 @@ const props = defineProps<{
             <a href="#">@Tihunov</a>
           </div>
         </div>
-        • {{ props.data.publishDate }} •
-        <IconsReadIcon class="w-3 mr-2 ml-1" />
-        {{ props.data.readingTime.text }}
+        <div class="flex">
+          {{ props.data.publishDate }}
+          <IconsReadIcon class="w-3 mr-1 ml-1" />
+          {{ props.data.readingTime.text }}
+        </div>
       </div>
     </div>
   </div>

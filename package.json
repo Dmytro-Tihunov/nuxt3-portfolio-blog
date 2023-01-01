@@ -25,6 +25,7 @@
     "@vueuse/nuxt": "^9.9.0",
     "octokit": "^2.0.10",
     "remark-reading-time": "^2.0.1",
+    "rss": "^1.2.2",
     "vee-validate": "^4.7.3",
     "yup": "^0.32.11"
   }
