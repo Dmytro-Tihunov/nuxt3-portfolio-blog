@@ -88,11 +88,11 @@ useHead({
     </div>
 
     <div
-      class="flex border-dashed border-t border-[#c7c7c7] dark:border-[#475584] pt-10 flex-col"
+      class="flex border-dashed border-t border-[#c7c7c7] dark:border-[#34343a] pt-10 flex-col"
     >
       <h1 class="title mb-6">Latest posts:</h1>
       <div
-        class="border rounded-[12px] p-4 pb-0 border-[#c7c7c7] dark:border-[#475584]"
+        class="border rounded-[12px] p-4 pb-0 border-[#c7c7c7] dark:border-[#34343a]"
       >
         <div class="grid grid-cols-1 gap-4">
           <ContentList
@@ -103,6 +103,7 @@ useHead({
                 'title',
                 'description',
                 'publishDate',
+                'img',
                 'tags',
                 'readingTime',
               ],
@@ -113,7 +114,7 @@ useHead({
           >
             <template v-slot="{ list }">
               <div
-                class="pb-4 flex border-b border-[#c7c7c7] dark:border-[#475584] items-center"
+                class="pb-4 flex border-b border-[#c7c7c7] dark:border-[#34343a] items-center"
                 v-for="article in list"
                 :key="article._path"
               >

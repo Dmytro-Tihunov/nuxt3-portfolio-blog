@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap");
+
 @font-face {
   font-family: "Recoleta";
   src: local("Recoleta Black"), local("Recoleta-Black"),
@@ -34,7 +36,7 @@
 
 @layer utilities {
   body {
-    @apply bg-[#f1f2f4] text-[#171717] dark:bg-[#111528] dark:text-[#dbe3f8];
+    @apply font-inter bg-[#f1f2f4] text-[#171717] dark:bg-[#151718] dark:text-[#ededef];
   }
   .title {
     @apply text-3xl sm:text-4xl font-semibold font-recoleta;
@@ -74,7 +76,7 @@
     @apply rounded-md border border-[#c7c7c7] dark:border-[#475584] bg-[#f1f2f4] p-4 pr-[18px] text-[13px] outline-none focus:border-[#303063] dark:bg-[#171C34];
   }
   .social-home-button {
-    @apply mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#171C34];
+    @apply mr-[11px] h-[36px] flex justify-center items-center bg-[#E8E8E8] w-[36px] rounded-full dark:bg-[#232425];
   }
   .posthome {
     @apply pb-4 flex items-center;

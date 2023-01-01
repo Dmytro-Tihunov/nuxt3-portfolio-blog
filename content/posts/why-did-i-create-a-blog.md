@@ -1,9 +1,9 @@
 ---
 title: Why did I create the blog?
-description: React does Framer Motion make layout changes look seamless? In this post, we're taking a deep dive into FLIP
+description: Short story about me and my decision of creating the blog.
 publishDate: Junuary 01, 2023
 date: 2023-01-01
-img: "img/cover-1.png"
+img: "/img/cover_1.svg"
 tags: ["blog"]
 ---
 

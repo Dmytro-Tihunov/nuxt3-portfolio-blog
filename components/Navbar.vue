@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div
-      class="max-w-4xl overflow-hidden border-b border-[#c7c7c7] dark:border-[#475584] py-4 px-4 xl:px-0 flex flex-wrap justify-between items-center mx-auto"
+      class="max-w-4xl overflow-hidden border-b border-[#c7c7c7] dark:border-[#34343a] py-4 px-4 xl:px-0 flex flex-wrap justify-between items-center mx-auto"
     >
       <a href="/" class="flex items-center">
         <IconsLogo class="w-6 mr-3" />

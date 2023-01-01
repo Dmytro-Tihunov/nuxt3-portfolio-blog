@@ -137,3 +137,9 @@ useHead({
     </div>
   </div>
 </template>
+
+<style scoped>
+h2 a {
+  @apply font-recoleta;
+}
+</style>

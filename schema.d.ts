@@ -3,6 +3,7 @@ export interface post {
   title: string;
   description: string;
   date: number;
+  img: string;
   publishDate: string;
   tags: string[];
   readingTime: { text: string };

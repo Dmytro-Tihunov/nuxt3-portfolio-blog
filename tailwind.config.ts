@@ -9,6 +9,7 @@ export default <Partial<Config>>{
       colors: {},
       fontFamily: {
         recoleta: ["Recoleta", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
