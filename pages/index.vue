@@ -11,7 +11,7 @@ const repoListSorted = computed(() => {
 });
 
 useHead({
-  title: "Home • Dmytro Tihunov",
+  title: "Home - Dmytro Tihunov",
   meta: [
     {
       property: "og:title",
@@ -44,6 +44,14 @@ useHead({
     {
       property: "og:image:height",
       content: "630",
+    },
+    {
+      name: "twitter:title",
+      content: "Dmytro Tihunov",
+    },
+    {
+      name: "twitter:description",
+      content: "I'm a frontend developer and javascript enthusiast.",
     },
     {
       name: "twitter:image",

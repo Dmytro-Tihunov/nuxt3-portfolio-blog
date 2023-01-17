@@ -85,7 +85,7 @@ watch(meta_k, (v) => {
 });
 
 useHead({
-  title: "Blog • Dmytro Tihunov",
+  title: "Blog - Dmytro Tihunov",
   meta: [
     {
       name: "description",

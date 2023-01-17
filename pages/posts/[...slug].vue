@@ -27,19 +27,31 @@ const copyLink = () =>
   );
 
 useHead({
-  title: post.value.title,
+  title: post.value?.title,
   meta: [
     {
+      name: "twitter:image",
+      content: `https://tihunov.com${post.value?.img}`,
+    },
+    {
+      name: "twitter:title",
+      content: post.value?.title,
+    },
+    {
+      name: "twitter:description",
+      content: post.value?.description,
+    },
+    {
       name: "description",
-      content: post.value.description,
+      content: post.value?.description,
     },
     {
       name: "og:title",
-      content: post.value.title,
+      content: post.value?.title,
     },
     {
       name: "og:description",
-      content: post.value.description,
+      content: post.value?.description,
     },
   ],
 });
@@ -85,7 +97,7 @@ useHead({
 
   <div class="grid grid-cols-8">
     <div
-      v-if="post.title"
+      v-if="post?.title"
       class="pt-10 col-span-8 pb-4 border-[#c7c7c7] border-dashed border-b dark:border-[#34343a]"
     >
       <div class="flex mb-4">
@@ -107,7 +119,7 @@ useHead({
 
     <article
       :class="[
-        post.body.toc.links.length <= 0
+        post?.body.toc.links.length <= 0
           ? 'col-span-8'
           : 'col-span-8  sm:col-span-6',
       ]"
@@ -128,7 +140,7 @@ useHead({
     </article>
 
     <div
-      v-if="post.title && post.body.toc.links.length > 0"
+      v-if="post?.title && post.body.toc.links.length > 0"
       class="hidden sm:block col-span-2 pl-6"
     >
       <aside class="sticky top-10 mt-[3rem] h-[auto]">

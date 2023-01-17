@@ -38,7 +38,12 @@ const copyLink = () => {
             />
           </div>
           <div>
-            <a class="text-[14px]" href="#">@tihunov</a>
+            <a
+              class="text-[14px]"
+              href="https://twitter.com/tihunov"
+              target="_blank"
+              >@tihunov</a
+            >
           </div>
         </div>
       </div>
