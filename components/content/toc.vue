@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const props = defineProps({
+defineProps({
   links: Object,
 });
 </script>
@@ -14,7 +14,7 @@ const props = defineProps({
       Table of Contents
     </h2>
     <ul class="text-[13px] mb-4">
-      <li class="mb-1" v-for="(link, index) in props.links" :key="link.text">
+      <li class="mb-1" v-for="(link, index) in links" :key="link.text">
         <a class="font-recoleta" :href="`#${link.id}`">
           {{ index + 1 }}. {{ link.text }}
         </a>
@@ -28,5 +28,3 @@ const props = defineProps({
     >
   </div>
 </template>
-
-<style scoped></style>

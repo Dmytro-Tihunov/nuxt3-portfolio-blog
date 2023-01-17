@@ -59,9 +59,9 @@ useHead({
 
 <template>
   <div
-    class="sm:hidden fixed left-0 dark:bg-[#171C34] py-2 border-t dark:border-[#475584] bottom-0 bg-[white] flex w-full shadow-md z-10"
+    class="sm:hidden fixed left-0 dark:bg-[#232425] py-2 border-t dark:border-[#34343a] bottom-0 bg-[white] flex w-full shadow-md z-10"
   >
-    <div class="w-1/4 border-r dark:border-[#475584]">
+    <div class="w-1/4 border-r dark:border-[#34343a]">
       <button
         @click="copyLink"
         class="py-3 w-full flex align-center text-center h-full"
@@ -69,7 +69,7 @@ useHead({
         <IconsLink class="w-4 mx-auto" />
       </button>
     </div>
-    <div class="w-1/4 border-r dark:border-[#475584]">
+    <div class="w-1/4 border-r dark:border-[#34343a]">
       <button
         @click="shareOnTwitter"
         class="py-3 w-full flex align-center text-center h-full"
@@ -77,7 +77,7 @@ useHead({
         <IconsTwitter class="w-4 mx-auto" />
       </button>
     </div>
-    <div v-if="prev" class="w-1/4 border-r dark:border-[#475584]">
+    <div v-if="prev" class="w-1/4 border-r dark:border-[#34343a]">
       <NuxtLink
         :to="prev._path"
         class="py-3 w-full flex align-center text-center h-full"
@@ -85,7 +85,7 @@ useHead({
         <IconsArrowLeft class="w-5 mx-auto" />
       </NuxtLink>
     </div>
-    <div v-if="next" class="w-1/4 border-r dark:border-[#475584]">
+    <div v-if="next" class="w-1/4 border-r dark:border-[#34343a]">
       <NuxtLink
         :to="next._path"
         class="py-3 w-full flex align-center text-center h-full"
