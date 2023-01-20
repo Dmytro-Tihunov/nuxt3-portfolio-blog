@@ -1,21 +1,22 @@
-# Nuxt 3 Minimal Starter
+![](./public/preview/chrome-capture-2023-0-20.gif)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Tihunov.com
+
+- Framework: [Nuxt 3] (https://nuxt.com/v3)
+- Deployment: [Vercel] (https://vercel.com)
+- Styling: [Tainwind CSS] (https://tailwindcss.com)
+- Forms: [Notion] (https://developers.notion.com) as a database
+- Blog: [Nuxt content] (https://tailwindcss.com) v2
 
 ## Setup
 
-Make sure to install the dependencies:
-
 ```bash
-# yarn
-yarn install
-
-# npm
+git clone https://github.com/Dmytro-Tihunov/nuxt3-portfolio-blog
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
+
+Create a `.env` file similar to `.env.example.`
 
 ## Development Server
 
