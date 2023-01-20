@@ -2,11 +2,11 @@
 
 # Tihunov.com
 
-- Framework: [Nuxt 3] (https://nuxt.com/v3)
-- Deployment: [Vercel] (https://vercel.com)
-- Styling: [Tainwind CSS] (https://tailwindcss.com)
-- Forms: [Notion] (https://developers.notion.com) as a database
-- Blog: [Nuxt content] (https://tailwindcss.com) v2
+- Framework: [Nuxt 3](https://nuxt.com/v3)
+- Deployment: [Vercel](https://vercel.com)
+- Styling: [Tainwind CSS](https://tailwindcss.com)
+- Forms: [Notion](https://developers.notion.com) as a database
+- Blog: [Nuxt content](https://tailwindcss.com) v2
 
 ## Setup
 
