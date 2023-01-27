@@ -6,3 +6,6 @@ node_modules
 .output
 .env
 dist
+
+# IDE / Editor
+.idea
