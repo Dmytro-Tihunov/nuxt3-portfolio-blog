@@ -12,12 +12,14 @@ const onSubmit = async (
   },
   { resetForm }
 ) => {
-  const { data, pending } = await useAsyncData("/notion", () =>
+  const { data } = await useAsyncData("/notion", () =>
     $fetch("/api/notion", {
       method: "post",
       body: { name: values.name, email: values.email, message: values.message },
     })
   );
+  console.log(data);
+
   isFormSent.value = true;
   resetForm();
 };
