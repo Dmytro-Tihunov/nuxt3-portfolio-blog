@@ -8,3 +8,12 @@ export interface post {
   tags: string[];
   readingTime: { text: string };
 }
+
+export type repoCard = {
+  name: string;
+  description: string;
+  created: string;
+  url: string;
+  stars: number;
+  forks: number;
+}
