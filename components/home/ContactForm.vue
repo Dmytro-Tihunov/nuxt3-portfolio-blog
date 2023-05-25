@@ -18,7 +18,6 @@ const onSubmit = async (
       body: { name: values.name, email: values.email, message: values.message },
     })
   );
-  console.log(data);
 
   isFormSent.value = true;
   resetForm();

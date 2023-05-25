@@ -20,7 +20,9 @@ defineProps<{
           }}
         </h2>
       </div>
-      <p class="mb-3 mt-1 text-[13px] text-[#6f6f6f] dark:text-[#9ba1a6]">
+      <p
+        class="mb-3 min-h-[39px] mt-1 text-[13px] text-[#6f6f6f] dark:text-[#9ba1a6]"
+      >
         {{ props.description }}
       </p>
 
