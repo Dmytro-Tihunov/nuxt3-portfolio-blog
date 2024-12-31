@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {},
   },
+
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
@@ -9,11 +10,14 @@ export default defineNuxtConfig({
     "@nuxtjs/web-vitals",
     "@nuxtjs/robots",
   ],
+
   extends: "@nuxt-themes/typography",
+
   colorMode: {
     preference: "dark",
     classSuffix: "",
   },
+
   content: {
     markdown: {
       remarkPlugins: ["remark-reading-time"],
@@ -25,17 +29,22 @@ export default defineNuxtConfig({
       },
     },
   },
+
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
   },
+
   webVitals: {
     provider: "log",
     debug: true, // debug enable metrics reporting on dev environments
     disabled: false,
   },
+
   nitro: {
     prerender: {
       routes: ["/sitemap.xml", "/rss.xml"],
     },
   },
+
+  compatibilityDate: "2024-12-31",
 });

@@ -7,7 +7,7 @@ export default eventHandler(async (event) => {
 
   const body = await readBody(event);
 
-  const notion = new Client({
+  const notion = new Client({ 
     auth: process.env.NUXT_PUBLIC_NOTION_TOKEN, // Change in .env
   });
   const formDatabaseId: string = "3cc733cd7673445099be0657960893ea" ?? ""; // Change accordingly to your database id
