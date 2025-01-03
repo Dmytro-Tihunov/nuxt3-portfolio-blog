@@ -1,5 +1,7 @@
 ![](./public/preview/chrome-capture-2023-0-20.gif)
 
+Soon coming update
+
 # Tihunov.com
 
 - Framework: [Nuxt 3](https://nuxt.com/v3)
